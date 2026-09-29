@@ -5,3 +5,4 @@ window.addEventListener('scroll', function() {
     parallax.style.transform = 'translateY(' + scrollPosition * 1 + 'px)';
   });
   
+

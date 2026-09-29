@@ -16,10 +16,11 @@ $stmt = $conn->prepare("INSERT INTO login (Username, email, password) VALUES (?,
 $stmt->bind_param("sss", $Username, $Email, $Password);
 
 if ($stmt->execute()) {
-    header("Location: home.html");
+    header("Location: index.html");
 } else {
     echo "Error: " . $stmt->error;
 }
 $stmt->close();
 $conn->close();
+
 ?>

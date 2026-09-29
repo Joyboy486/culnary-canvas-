@@ -1,5 +1,5 @@
 function navigateToAnotherPage() {
-    window.location.href = 'http://127.0.0.1:5500/Project/home.html';
+    window.location.href = 'http://127.0.0.1:5500/Project/index.html';
 }
 
 const wrapper = document.querySelector('.wrapper');
@@ -20,4 +20,6 @@ btnpopup.addEventListener('click', () => {
 iconclose.addEventListener('click', () => {
     wrapper.classList.remove('active-popup');
 });
+
+
 
